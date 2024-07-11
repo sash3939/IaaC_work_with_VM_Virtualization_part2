@@ -95,3 +95,33 @@ Error: The requested URL returned error: 404:
 7. Удалите ВМ и образ.
 8. **ВНИМАНИЕ!** Никогда не выкладываете oauth token от облака в git-репозиторий! Утечка секретного токена может привести к финансовым потерям. После выполнения задания обязательно удалите секретные данные из файла mydebian.json и mydebian.json.pkr.hcl. (замените содержимое токена на  "ххххх")
 9. В качестве ответа на задание  загрузите результирующий файл в ваш ЛК.
+
+## Решение 3
+
+![ubuntu json pkr hcl image packer](https://github.com/user-attachments/assets/a2bc3e7e-b8bd-4afe-96c3-0ec92e89c84d)
+---
+
+![packer build](https://github.com/user-attachments/assets/e9f6e266-c301-488d-9a9d-4e67a11f6d61)
+---
+
+![after packer builded](https://github.com/user-attachments/assets/b499e1a5-5e7e-45cd-bdb0-cbd991afab6a)
+---
+
+![own image](https://github.com/user-attachments/assets/74036a7b-07ce-40de-852d-ecc672eb9efe)
+---
+
+**yc compute image list**
+---
+
+![docker version vm packer image](https://github.com/user-attachments/assets/9a0a05c1-2c37-406a-983d-7842a81415b6)
+---
+
+![tmux,htop](https://github.com/user-attachments/assets/8a345842-4770-44c0-9961-2182b170bf9a)
+---
+
+
+
+
+
+
+
