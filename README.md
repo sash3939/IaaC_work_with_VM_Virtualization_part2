@@ -34,7 +34,6 @@
 
 
 
-
 ## Задача 2
 
 1. Убедитесь, что у вас есть ssh ключ в ОС или создайте его с помощью команды ```ssh-keygen -t ed25519```
@@ -63,6 +62,26 @@ Error: The requested URL returned error: 404:
  Попробуйте в этом случае выполнить в Windows от администратора команду `bcdedit /set hypervisorlaunchtype off` и перезагрузиться.
 
 - Если ваша рабочая станция в меру различных факторов не может запустить вложенную виртуализацию - допускается неполное выполнение(до ошибки запуска ВМ)
+
+
+## Решение 2
+
+Для поддержки VTx Nested необходимо в ВМ разрешить эту технологию
+**VBoxManage modifyvm "Name VM" --nested-hw-virt on**
+
+
+![vm started](https://github.com/user-attachments/assets/147dcf99-a5a0-4f48-b058-e65a59a5908b)
+---
+
+![vagrant ssh](https://github.com/user-attachments/assets/b4286a94-9327-491f-a8d8-5fe0b3a25da3)
+---
+
+![docker ver and docker compose ver](https://github.com/user-attachments/assets/4473adae-febc-4590-bd57-110fe7589ab0)
+---
+
+
+
+
 
 ## Задача 3
 
